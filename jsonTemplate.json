@@ -1,0 +1,41 @@
+{
+  "database": [
+    {
+      "categoryId": 0,
+      "category": "",
+      "items": [
+        {
+          "itemId": 0,
+          "name": "",
+          "appearance": "",
+          "aliases": [
+            {
+              "alias": ""
+            }
+          ],
+          "information": "",
+          "references": [
+            {
+              "refID": 0,
+              "location": ""
+            }
+          ],
+          "consumable": true
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "refId": 0,
+      "category": "book",
+      "information": {
+        "title": "",
+        "subtitle": "",
+        "author": "",
+        "year": ""
+      }
+    }
+  ]
+
+}
