@@ -138,7 +138,25 @@
             {
               "effect": "health"
             }
-          ]
+          ],
+          "open practice": true
+        },
+        {
+          "itemId": 1,
+          "name": "white sage",
+          "aliases": [
+            {
+              "alias": "salvia apiana"
+            },
+            {
+              "alias": "bee sage"
+            },
+            {
+              "alias": "sacred sage"
+            }
+          ],
+          "open practice": false,
+          "reason": "over-harvesting and conservation concerns as well as sacredness to certain Indigenous tribes"
         }
       ]
     },
