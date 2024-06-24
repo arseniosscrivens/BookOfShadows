@@ -1,0 +1,456 @@
+{
+  "chem_dictionary": [
+    {
+      "name": "dopamine",
+      "effects": [
+        {
+          "effect": "pleasure"
+        },
+        {
+          "effect": "motivation"
+        },
+        {
+          "effect": "movement"
+        },
+        {
+          "effect": "concentration"
+        },
+        {
+          "effect": "coordination"
+        },
+        {
+          "effect": "mood stability"
+        }
+      ]
+    },
+    {
+      "name": "1,8-cineole",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "camphor",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "borneol",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "bornyl acetate",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "alpha thujone",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "beta thujone",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "linalool",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "alpha caryophyllene",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "beta caryophyllene",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "alpha humulene",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "alpha pinene",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "beta pinene",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "viridiflorol",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "pimaradiene",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "salvianolic acid",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "rosmarinic acid",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "carnosolic acid",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "ursolic acid",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "danshensu",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "caffeic acid",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "protocatechualdehyde",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "effects": [
+        {
+          "effect": ""
+        },
+        {
+          "effect": ""
+        }
+      ]
+    }
+  ]
+}

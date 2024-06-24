@@ -1,0 +1,222 @@
+{
+  "database": [
+    {
+      "categoryId": 0,
+      "category": "Herbs",
+      "items": [
+        {
+          "itemId": 0,
+          "name": "sage",
+          "appearance": "",
+          "aliases": [
+            {
+              "alias": "common sage"
+            },
+            {
+              "alias": "salvia"
+            },
+            {
+              "alias": "salvia officinalis"
+            },
+            {
+              "alias": "garden sage"
+            },
+            {
+              "alias": "golden sage"
+            },
+            {
+              "alias": "kitchen sage"
+            },
+            {
+              "alias": "true sage"
+            },
+            {
+              "alias": "culinary sage"
+            },
+            {
+              "alias": "dalmatian sage"
+            },
+            {
+              "alias": "broadleaf sage"
+            },
+            {
+              "alias": "purple sage"
+            },
+            {
+              "alias": "red sage"
+            },
+            {
+              "alias": "adaçayı"
+            },
+            {
+              "alias": "maramia"
+            },
+            {
+              "alias": "island tea"
+            }
+          ],
+          "information": "",
+          "references": [
+            {
+              "refID": 5,
+              "location": "various"
+            }
+          ],
+          "consumable": true,
+          "edible": true,
+          "chem_components": [
+            {
+              "name": "1,8-cineole",
+              "rank": 1
+            },
+            {
+              "name": "camphor",
+              "rank": 2
+            },
+            {
+              "name": "borneol",
+              "rank": 4
+            },
+            {
+              "name": "bornyl acetate"
+            },
+            {
+              "name": "alpha thujone"
+            },
+            {
+              "name": "beta thujone"
+            },
+            {
+              "name": "linalool"
+            },
+            {
+              "name": "alpha caryophyllene"
+            },
+            {
+              "name": "beta caryophyllene"
+            },
+            {
+              "name": "alpha humulene"
+            },
+            {
+              "name": "alpha pinene",
+              "rank": 5
+            },
+            {
+              "name": "beta pinene",
+              "rank": 3
+            },
+            {
+              "name": "viridiflorol"
+            },
+            {
+              "name": "pimaradiene"
+            },
+            {
+              "name": "salvianolic acid"
+            },
+            {
+              "name": "rosmarinic acid"
+            },
+            {
+              "name": "carnosolic acid"
+            },
+            {
+              "name": "ursolic acid"
+            },
+            {
+              "name": "danshensu"
+            },
+            {
+              "name": "caffeic acid"
+            },
+            {
+              "name": "protocatechualdehyde"
+            }
+          ],
+          "effects": [
+            {
+              "effect": "health"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": 1,
+      "category": "Moon Phases",
+      "phase": [
+
+      ]
+    },
+    {
+      "categoryId": 2,
+      "category": "Tools",
+      "tool": [
+
+      ]
+    }
+  ],
+  "references": [
+    {
+      "refId": 0,
+      "category": "book",
+      "information": {
+        "title": "Herbalism",
+        "subtitle": "Plants and Potions That Heal",
+        "author": "Adrian White",
+        "year": "2024"
+      }
+    },
+    {
+      "refId": 1,
+      "category": "book",
+      "information": {
+        "title": "Herbal Magic",
+        "subtitle": "A handbook of Natural Spells, Charms and Potions",
+        "author": "Aurora Kane",
+        "year": "2021"
+      }
+    },
+    {
+      "refId": 2,
+      "category": "book",
+      "information": {
+        "title": "The Green Witch",
+        "subtitle": "Your Complete Guide to the Natural Magic of Herbs, Flowers, Essential Oils, and More",
+        "author": "Arin Murphy-Hiscock",
+        "year": "2017"
+      }
+    },
+    {
+      "refId": 3,
+      "category": "book",
+      "information": {
+        "title": "Druidry",
+        "subtitle": "How to connect spiritually with the land",
+        "author": "Maria Ede-Weaving",
+        "year": "2023"
+      }
+    },
+    {
+      "refId": 4,
+      "category": "book",
+      "information": {
+        "title": "The Good Witch's Guide",
+        "subtitle": "A Modern-Day Wiccapedia of Magickal Ingredients and Spells",
+        "author": "Shawn Robbins and Charity Bedell",
+        "year": ""
+      }
+    },
+    {
+      "refId": 5,
+      "category": "publication",
+      "information": {
+        "title": "Chemistry, Pharmacology, and Medicinal Property of Sage (Salvia) to Prevent and Cure Illnesses such as Obesity, Diabetes, Depression, Dementia, Lupus, Autism, Heart Disease, and Cancer",
+        "author": "Mohsen Hamidpour, Rafie Hamidpour, Soheila Hamidpour, and Mina Shahlari",
+        "year": "2014",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4003706/"
+      }
+    }
+  ]
+}

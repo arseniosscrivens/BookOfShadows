@@ -20,7 +20,13 @@
               "location": ""
             }
           ],
-          "consumable": true
+          "consumable": true,
+          "edible": true,
+          "chem_components": [
+            {
+              "name": ""
+            }
+          ]
         }
       ]
     }
@@ -37,5 +43,5 @@
       }
     }
   ]
-
 }
+
