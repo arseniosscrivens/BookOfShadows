@@ -139,7 +139,8 @@
               "effect": "health"
             }
           ],
-          "open practice": true
+          "open_practice": true,
+          "refId": 5
         },
         {
           "itemId": 1,
@@ -155,7 +156,7 @@
               "alias": "sacred sage"
             }
           ],
-          "open practice": false,
+          "open_practice": false,
           "reason": "over-harvesting and conservation concerns as well as sacredness to certain Indigenous tribes"
         }
       ]
@@ -172,6 +173,204 @@
       "category": "Tools",
       "tool": [
 
+      ]
+    },
+    {
+      "categoryId": 3,
+      "category": "Vocabulary",
+      "terms": [
+        {
+          "vocabId": 0,
+          "term": "Holistic Healthcare",
+          "definition": "Working for the whole body and the entire disease, bodily system, or imbalance.",
+          "refId": 0
+        },
+        {
+          "vocabId": 1,
+          "term": "Allopathic Healthcare/Allopathy",
+          "definition": "the idea that a remedy works on an independent issue or symptom.",
+          "refId": 0
+        },
+        {
+          "vocabId": 2,
+          "term": "Homeopathy",
+          "definition": "the idea that 'like treats like' when it comes to illness.",
+          "refId": 0
+        }
+      ]
+    },
+    {
+      "categoryId": 4,
+      "category": "Recipes and Herbal Usage",
+      "note": "This is a how-to on general ways to implement herbs. These are not recipes of specific ingredients.",
+      "recipes": [
+        {
+          "recipeId": 0,
+          "recipe": "Simple Tea",
+          "steps": [
+            {
+              "1": "Bring water to a boil."
+            },
+            {
+              "2": "Most herbs make an excellent tea when you use 1-3 tablespoons (approx. 2g to 6g.) of herbal material per water cup measurement."
+            },
+            {
+              "3": "Pour boiled water over tea in your teacup, mug, pot, infuser, or other vessel. Let it steep for at least 5 minutes."
+            },
+            {
+              "4": "Sip and enjoy while still hot, and flavour lightly with lemon juice, honey, or any other flavourful or health-boosting addition you like."
+            }
+          ],
+          "refId": 0
+        },
+        {
+          "recipeId": 1,
+          "recipe": "Herbal Infusion (or Compress)",
+          "steps": [
+            {
+              "1": "Bring water to a boil."
+            },
+            {
+              "2": "Use a higher ratio than teas, 1/2 - 1 cup herb (dried or fresh) per 3.8 litres of water."
+            },
+            {
+              "3": "Place all raw herbal materials straight into the pot of boiling water, stir it in, and turn off the heat."
+            },
+            {
+              "4": "Let the infusion steep for at least 10-30 minutes. For a very potent brew, turn the pot on low instead of completely off, letting the herbs infuse for another hour."
+            },
+            {
+              "5": ""
+            },
+            {
+              "2": ""
+            },
+            {
+              "2": ""
+            },
+            {
+              "2": ""
+            }
+          ],
+          "refId": 0
+        },
+        {
+          "recipeId": 2,
+          "recipe": "",
+          "steps": [
+            {
+              "1": ""
+            },
+            {
+              "2": ""
+            }
+          ],
+          "refId": 0
+        },
+        {
+          "recipeId": 3,
+          "recipe": "",
+          "steps": [
+            {
+              "1": ""
+            },
+            {
+              "2": ""
+            }
+          ],
+          "refId": 0
+        },
+        {
+          "recipeId": 4,
+          "recipe": "",
+          "steps": [
+            {
+              "1": ""
+            },
+            {
+              "2": ""
+            }
+          ],
+          "refId": 0
+        },
+        {
+          "recipeId": 5,
+          "recipe": "",
+          "steps": [
+            {
+              "1": ""
+            },
+            {
+              "2": ""
+            }
+          ],
+          "refId": 0
+        },
+        {
+          "recipeId": 6,
+          "recipe": "",
+          "steps": [
+            {
+              "1": ""
+            },
+            {
+              "2": ""
+            }
+          ],
+          "refId": 0
+        },
+        {
+          "recipeId": 7,
+          "recipe": "",
+          "steps": [
+            {
+              "1": ""
+            },
+            {
+              "2": ""
+            }
+          ],
+          "refId": 0
+        },
+        {
+          "recipeId": 8,
+          "recipe": "",
+          "steps": [
+            {
+              "1": ""
+            },
+            {
+              "2": ""
+            }
+          ],
+          "refId": 0
+        },
+        {
+          "recipeId": 9,
+          "recipe": "",
+          "steps": [
+            {
+              "1": ""
+            },
+            {
+              "2": ""
+            }
+          ],
+          "refId": 0
+        },
+        {
+          "recipeId": 10,
+          "recipe": "",
+          "steps": [
+            {
+              "1": ""
+            },
+            {
+              "2": ""
+            }
+          ],
+          "refId": 0
+        }
       ]
     }
   ],
