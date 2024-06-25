@@ -1,0 +1,11 @@
+A guide for determining the rank of an ingredient by average percentage:
+Grade: Min - Max
+SSS: 90.0% - 100.0%
+ SS: 70.0% -  90.0%
+  S: 50.0% -  70.0%
+  A: 30.0% -  50.0%
+  B: 10.0% -  30.0%
+  C:  3.0% -  10.0%
+  D:  1.0% -   3.0%
+  E:  0.5% -   1.0%
+  F:  0.0% -   0.5%

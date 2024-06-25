@@ -17,42 +17,6 @@
             },
             {
               "alias": "salvia officinalis"
-            },
-            {
-              "alias": "garden sage"
-            },
-            {
-              "alias": "golden sage"
-            },
-            {
-              "alias": "kitchen sage"
-            },
-            {
-              "alias": "true sage"
-            },
-            {
-              "alias": "culinary sage"
-            },
-            {
-              "alias": "dalmatian sage"
-            },
-            {
-              "alias": "broadleaf sage"
-            },
-            {
-              "alias": "purple sage"
-            },
-            {
-              "alias": "red sage"
-            },
-            {
-              "alias": "adaçayı"
-            },
-            {
-              "alias": "maramia"
-            },
-            {
-              "alias": "island tea"
             }
           ],
           "information": "",
@@ -67,72 +31,121 @@
           "chem_components": [
             {
               "name": "1,8-cineole",
-              "rank": 1
+              "rank": "C-S"
             },
             {
               "name": "camphor",
-              "rank": 2
+              "rank": "C-A"
             },
             {
               "name": "borneol",
-              "rank": 4
+              "rank": "D-C"
             },
             {
-              "name": "bornyl acetate"
+              "name": "bornyl acetate",
+              "rank": "F-C"
             },
             {
-              "name": "alpha thujone"
+              "name": "alpha thujone",
+              "rank": "D-A"
             },
             {
-              "name": "beta thujone"
+              "name": "beta thujone",
+              "rank": "E-B"
             },
             {
-              "name": "linalool"
+              "name": "linalool",
+              "rank": "F-E"
             },
             {
-              "name": "alpha caryophyllene"
+              "name": "beta caryophyllene",
+              "rank": "F-D"
             },
             {
-              "name": "beta caryophyllene"
-            },
-            {
-              "name": "alpha humulene"
+              "name": "alpha humulene",
+              "rank": "D-C"
             },
             {
               "name": "alpha pinene",
-              "rank": 5
+              "rank": "D-C"
             },
             {
               "name": "beta pinene",
-              "rank": 3
+              "rank": "E-C"
             },
             {
-              "name": "viridiflorol"
+              "name": "viridiflorol",
+              "rank": "C"
             },
             {
-              "name": "pimaradiene"
+              "name": "camphene",
+              "rank": "D-C"
             },
             {
-              "name": "salvianolic acid"
+              "name": "monoterpene",
+              "rank": "D"
             },
             {
-              "name": "rosmarinic acid"
+              "name": "carvacrol",
+              "rank": "F-D"
             },
             {
-              "name": "carnosolic acid"
+              "name": "beta myrcene",
+              "rank": "E-D"
             },
             {
-              "name": "ursolic acid"
+              "name": "beta cymene",
+              "rank": "F-E"
             },
             {
-              "name": "danshensu"
+              "name": "limonene",
+              "rank": "D"
             },
             {
-              "name": "caffeic acid"
+              "name": "y terpinene",
+              "rank": "F"
             },
             {
-              "name": "protocatechualdehyde"
+              "name": "alpha terpinolene",
+              "rank": "F"
+            },
+            {
+              "name": "terpinen-4-ol",
+              "rank": "F-E"
+            },
+            {
+              "name": "alpha terpineol",
+              "rank": "F"
+            },
+            {
+              "name": "thymol",
+              "rank": "F"
+            },
+            {
+              "name": "caryophyllene oxide",
+              "rank": "F"
+            },
+            {
+              "name": "manool",
+              "rank": "F-D"
+            },
+            {
+              "name": "geranyl acetate",
+              "rank": "F-C"
+            },
+            {
+              "name": "geraniol",
+              "rank": "F"
+            },
+            {
+              "name": "phytol",
+              "rank": "F"
+            },
+            {
+              "name": "farnesol",
+              "rank": "F"
             }
+
           ],
           "effects": [
             {
@@ -140,7 +153,12 @@
             }
           ],
           "open_practice": true,
-          "refId": 5
+          "refId": [
+            {
+              "1": 5,
+              "2": 6
+            }
+          ]
         },
         {
           "itemId": 1,
@@ -158,6 +176,96 @@
           ],
           "open_practice": false,
           "reason": "over-harvesting and conservation concerns as well as sacredness to certain Indigenous tribes"
+        },
+        {
+          "itemId": 2,
+          "name": "black sage",
+          "aliases": [
+            {
+              "alias": "salvia mellifera"
+            }
+          ]
+        },
+        {
+          "itemId": 3,
+          "name": "seer's' sage",
+          "aliases": [
+            {
+              "alias": "salvia divinorum"
+            },
+            {
+              "alias": "sage of the diviners"
+            },
+            {
+              "alias": "diviner's sage"
+            }
+          ]
+        },
+        {
+          "itemId": 4,
+          "name": "red sage",
+          "aliases": [
+            {
+              "alias": "salvia miltiorrhiza"
+            },
+            {
+              "alias": "danshen"
+            }
+          ]
+        },
+        {
+          "itemId": 5,
+          "name": "scarlet sage",
+          "aliases": [
+            {
+              "alias": "salvia spendens"
+            }
+          ]
+        },
+        {
+          "itemId": 6,
+          "name": "mealycup sage",
+          "aliases": [
+            {
+              "alias": "salvia farinacea"
+            }
+          ]
+        },
+        {
+          "itemId": 7,
+          "name": "texas sage",
+          "aliases": [
+            {
+              "alias": "salvia coccinea"
+            }
+          ]
+        },
+        {
+          "itemId": 8,
+          "name": "woodland sage",
+          "aliases": [
+            {
+              "alias": "salvia nemerosa"
+            }
+          ]
+        },
+        {
+          "itemId": 9,
+          "name": "autumn sage",
+          "aliases": [
+            {
+              "alias": "salvia greggii"
+            }
+          ]
+        },
+        {
+          "itemId": 10,
+          "name": "pineapple sage",
+          "aliases": [
+            {
+              "alias": "salvia elegans"
+            }
+          ]
         }
       ]
     },
@@ -381,7 +489,11 @@
       "information": {
         "title": "Herbalism",
         "subtitle": "Plants and Potions That Heal",
-        "author": "Adrian White",
+        "author": [
+          {
+            "1": "Adrian White"
+          }
+        ],
         "year": "2024"
       }
     },
@@ -391,7 +503,11 @@
       "information": {
         "title": "Herbal Magic",
         "subtitle": "A handbook of Natural Spells, Charms and Potions",
-        "author": "Aurora Kane",
+        "author": [
+          {
+            "1": "Aurora Kane"
+          }
+        ],
         "year": "2021"
       }
     },
@@ -401,9 +517,13 @@
       "information": {
         "title": "The Green Witch",
         "subtitle": "Your Complete Guide to the Natural Magic of Herbs, Flowers, Essential Oils, and More",
-        "author": "Arin Murphy-Hiscock",
-        "year": "2017"
-      }
+        "author": [
+          {
+            "1": "Arin Murphy-Hiscock"
+          }
+        ],
+          "year": "2017"
+        }
     },
     {
       "refId": 3,
@@ -411,7 +531,11 @@
       "information": {
         "title": "Druidry",
         "subtitle": "How to connect spiritually with the land",
-        "author": "Maria Ede-Weaving",
+        "author": [
+          {
+            "1": "Maria Ede-Weaving"
+          }
+        ],
         "year": "2023"
       }
     },
@@ -421,7 +545,14 @@
       "information": {
         "title": "The Good Witch's Guide",
         "subtitle": "A Modern-Day Wiccapedia of Magickal Ingredients and Spells",
-        "author": "Shawn Robbins and Charity Bedell",
+        "author": [
+          {
+            "1": "Shawn Robbins"
+          },
+          {
+            "2": "Charity Bedell"
+          }
+        ],
         "year": ""
       }
     },
@@ -430,9 +561,51 @@
       "category": "publication",
       "information": {
         "title": "Chemistry, Pharmacology, and Medicinal Property of Sage (Salvia) to Prevent and Cure Illnesses such as Obesity, Diabetes, Depression, Dementia, Lupus, Autism, Heart Disease, and Cancer",
-        "author": "Mohsen Hamidpour, Rafie Hamidpour, Soheila Hamidpour, and Mina Shahlari",
+        "author": [
+          {
+            "1": "Mohsen Hamidpour"
+          },
+          {
+            "2": "Rafie Hamidpour"
+          },
+          {
+            "3": "Soheila Hamidpour"
+          },
+          {
+            "4": "Mina Shahlari"
+          }
+        ],
         "year": "2014",
         "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4003706/"
+      }
+    },
+    {
+      "refId": 6,
+      "category": "publication",
+      "information": {
+        "title": "Chemical Composition and Biological Activity of Salvia officianlis L. Essential Oil",
+        "author": [
+          {
+            "1": "Zvonimir Jažo"
+          },
+          {
+            "2": "Mateo Glumac"
+          },
+          {
+            "3": "Vlatka Paštar"
+          },
+          {
+            "4": "Sanida Bektić"
+          },
+          {
+            "5": "Mila Radan"
+          },
+          {
+            "6": "Ivana Carev"
+          }
+        ],
+        "year": "2023",
+        "link": "https://www.mdpi.com/2223-7747/12/9/1794"
       }
     }
   ]
