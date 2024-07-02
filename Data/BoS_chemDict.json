@@ -255,7 +255,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "monoterpene",
       "effects": [
         {
           "effect": ""
@@ -266,7 +266,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "carvacrol",
       "effects": [
         {
           "effect": ""
@@ -277,7 +277,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "beta myrcene",
       "effects": [
         {
           "effect": ""
@@ -288,7 +288,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "beta cymene",
       "effects": [
         {
           "effect": ""
@@ -299,7 +299,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "limonene",
       "effects": [
         {
           "effect": ""
@@ -310,7 +310,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "y terpinene",
       "effects": [
         {
           "effect": ""
@@ -321,7 +321,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "alpha terpinolene",
       "effects": [
         {
           "effect": ""
@@ -332,7 +332,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "terpinen-4-ol",
       "effects": [
         {
           "effect": ""
@@ -343,7 +343,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "alpha terpineol",
       "effects": [
         {
           "effect": ""
@@ -354,7 +354,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "thymol",
       "effects": [
         {
           "effect": ""
@@ -365,7 +365,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "caryophyllene oxide",
       "effects": [
         {
           "effect": ""
@@ -376,7 +376,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "manool",
       "effects": [
         {
           "effect": ""
@@ -387,7 +387,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "geranyl acetate",
       "effects": [
         {
           "effect": ""
@@ -398,7 +398,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "geraniol",
       "effects": [
         {
           "effect": ""
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "name": "",
+      "name": "phytol",
       "effects": [
         {
           "effect": ""
@@ -420,29 +420,7 @@
       ]
     },
     {
-      "name": "",
-      "effects": [
-        {
-          "effect": ""
-        },
-        {
-          "effect": ""
-        }
-      ]
-    },
-    {
-      "name": "",
-      "effects": [
-        {
-          "effect": ""
-        },
-        {
-          "effect": ""
-        }
-      ]
-    },
-    {
-      "name": "",
+      "name": "farnesol",
       "effects": [
         {
           "effect": ""
