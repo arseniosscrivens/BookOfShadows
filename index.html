@@ -1,13 +1,65 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Document</title>
+    <title>Submit Data</title>
 </head>
 <body>
-    <h1>Book of Shadows</h1>
-    <p>This page is incomplete and will be completed at a later date.</p>
-    <img src="https://arseniosscrivens.github.io/BookOfShadows/Data/images/shadowBook.png">
+    <h1>Submit Data</h1>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="fetchData('categories')">Categories</a></li>
+            <li><a href="#" onclick="fetchData('items/0')">Herbs</a></li>
+            <li><a href="#" onclick="fetchData('vocabulary/3')">Vocabulary</a></li>
+            <li><a href="#" onclick="fetchData('recipes/4')">Recipes</a></li>
+            <li><a href="#" onclick="fetchData('references')">References</a></li>
+        </ul>
+    </nav>
+    <form id="dataForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="value">Value:</label>
+        <input type="text" id="value" name="value" required>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="output"></div>
+
+    <script>
+        document.getElementById('dataForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            let name = document.getElementById('name').value;
+            let value = document.getElementById('value').value;
+
+            fetch('http://localhost:5000/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ name: name, value: value }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        });
+
+        function fetchData(endpoint) {
+            fetch(`http://localhost:5000/${endpoint}`)
+                .then(response => response.json())
+                .then(data => {
+                    const output = document.getElementById('output');
+                    output.innerHTML = JSON.stringify(data, null, 2);
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
 </body>
 </html>
