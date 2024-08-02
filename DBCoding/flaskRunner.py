@@ -1,8 +1,11 @@
-from flask import Flask, request, jsonify
+from flask import Flask, render_template, request, redirect, url_for
+from flask_sqlalchemy import SQLAlchemy
 from BoS_db import get_session, Category, Item, Alias, ChemicalComponent, Reference, Effect, Recipe, RecipeStep, Vocab, ReferenceInfo, Author
 
 app = Flask(__name__)
-session = get_session()
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///dataStorage/data.db'
+db = SQLAlchemy(app)
+#session = get_session()
 
 @app.route('/categories', methods=['GET'])
 def get_categories():

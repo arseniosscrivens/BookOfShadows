@@ -6,7 +6,7 @@ from sqlalchemy.orm import declarative_base, relationship, sessionmaker, declare
 class BoSDB():
 
     # Create an SQLite database engine with SQLAlchemy
-    db = 'sqlite:///DBCoding/dataStorage/data.db'
+    db = 'sqlite:///dataStorage/data.db'
     engine = create_engine(db, echo=False) # 'echo=True' enables logging
 
     # Create a base class for declarative class definitions
@@ -15,6 +15,13 @@ class BoSDB():
     # Create a session maker bound to the engine
     Session = sessionmaker(bind=engine)
     session = Session()
+
+    # Associate table for the many-to-many relationship (Reference-Author)
+    reference_author_association = Table(
+        'reference_author', Base.metadata,
+        Column('reference_id', Integer, ForeignKey('referencesT.id')),
+        Column('author_id', Integer, ForeignKey('authorsT.id'))
+    )
 
     # Define Category Class
     class Category(Base):
@@ -55,13 +62,12 @@ class BoSDB():
         # Create Attributes
         id = Column(Integer, primary_key=True)
         id_category = Column(Integer, ForeignKey('categoriesT.id'), primary_key=True)
-        id_reference = Column(Integer, ForeignKey('referencesT.id'), nullable=True)
-        name = Column(String)
+        name = Column(String, nullable=False)
         appearance = Column(String, nullable=True)
         information = Column(String, nullable=True)
-        consumable = Column(Boolean, nullable=True)
-        edible = Column(Boolean, nullable=True)
-        open_practice = Column(Boolean, default=False)
+        consumable = Column(Boolean, nullable=False)
+        edible = Column(Boolean, nullable=False)
+        open_practice = Column(Boolean, nullable=False, default=False)
         reason = Column(String, nullable=True)
 
         # Create Relationships
@@ -89,9 +95,44 @@ class BoSDB():
 
         # Create Attributes
         id = Column(Integer, primary_key=True)
-        name = Column(String)
-        rank = Column(String)
-        herb_id = Column(Integer, ForeignKey('herbsT.id'))
+        name = Column(String, nullable=False)
+        rank = Column(String, nullable=True)
+        herb_id = Column(Integer, ForeignKey('herbsT.id'), nullable=True)
+
+    # Define Reference class
+    class Reference(Base):
+        # Create a Table
+        __tablename__ = 'referencesT'
+
+        # Create Attributes
+        id = Column(Integer, primary_key=True)
+        category = Column(String, nullable=False)
+        title = Column(String, nullable=False)
+        subtitle = Column(String, nullable=True)
+        year = Column(Integer, nullable=True)
+        link = Column(String, nullable=True)
+
+        # Create Relationships
+        authors = relationship("Author", secondary=reference_author_association, back_populates="references")
+    
+    # Define Author subclass for Reference class (many to many)
+    class Author(Base):
+        # Create a Table
+        __tablename__ = 'authorsT'
+
+        # Create Attributes
+        id = Column(Integer, primary_key=True)
+        name = Column(String, nullable=False)
+        age = Column(String, nullable=True)
+
+        # Create Relationships
+        references = relationship("Reference", secondary=reference_author_association, back_populates="authors")
+
+
+
+
+
+
 
 
     def __init__(self, new=False):
@@ -136,13 +177,7 @@ class BoSDB():
 
 
 
-    class Reference(Base):
-        # Create a Table
-        __tablename__ = 'references'
 
-        # Create Attributes
-        id = Column(Integer, primary_key=True)
-        location = Column(String)
 
     class Effect(Base):
         __tablename__ = 'effects'
